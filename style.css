@@ -1,0 +1,115 @@
+*, body{
+    margin: 0;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+.container{
+    margin-top: 120px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: rgba(58, 35, 14, 0.7);
+    border-radius: 5px;
+    height: 460px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.top {
+    height: 45%;
+    background:rgb(234, 233, 229);
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 10px solid #00A0B0;
+}
+  
+.bottom {
+    height: 45%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#countDownTime{
+    font-size: 55px;
+    color: #00A0B0;
+}
+
+.bottom h1{
+    color: white;
+    margin-top: 10px;
+}
+
+.bottom hr{
+    border-bottom: 1px dotted white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 5px;
+}
+
+.columns{
+    column-count: 2;
+    margin-top: 10px;
+}
+
+.timings{
+    color: white;
+}
+
+#sessionTime{
+    margin-top: 10px;
+    color: #00A0B0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#breakTime{
+    margin-top: 10px;
+    color: #EB6841;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#sessionTimePlus, #sessionTimeMinus, #breakTimePlus, #breakTimeMinus{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 40px;
+    border-radius: 5px;
+}
+
+.buttons{
+    display: inline-block;
+    margin-top: 7px;
+}
+
+#startButton{
+    margin-right: 10px;
+}
+
+#resetButton{
+    margin-left: 10px;
+}
+
+#startButton, #resetButton{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#sessionTimePlus:focus, #sessionTimeMinus:focus, #breakTimePlus:focus, #breakTimeMinus:focus, #startButton:focus, #resetButton:focus{
+    /* transform: translateY(-5%); */
+    outline: none;
+}
+
+#sessionTimePlus:hover, #sessionTimeMinus:hover, #breakTimePlus:hover, #breakTimeMinus:hover, #startButton:hover, #resetButton:hover{
+    transform: translateY(-5%);
+    outline: none;
+}
